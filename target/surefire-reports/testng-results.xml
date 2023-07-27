@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69004" started-at="2022-11-01T03:46:56Z" finished-at="2022-11-01T03:48:05Z">
+    <groups>
+      <group name="cucumber scenarios">
+        <method signature="TestRunner.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@647fd8ce]" name="scenario" class="testRunners.TestRunner"/>
+      </group> <!-- cucumber scenarios -->
+    </groups>
+    <test name="Test" duration-ms="69004" started-at="2022-11-01T03:46:56Z" finished-at="2022-11-01T03:48:05Z">
+      <class name="testRunners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunners.TestRunner@647fd8ce]" name="setUpClass" is-config="true" duration-ms="1176" started-at="2022-11-01T03:46:56Z" finished-at="2022-11-01T03:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@647fd8ce]" name="scenario" duration-ms="35930" started-at="2022-11-01T03:46:58Z" data-provider="scenarios" finished-at="2022-11-01T03:47:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer place an order by purchasing an item from search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Automated End2End Tests]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@647fd8ce]" name="scenario" duration-ms="26094" started-at="2022-11-01T03:47:33Z" data-provider="scenarios" finished-at="2022-11-01T03:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer place an order by purchasing an item from search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Automated End2End Tests]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.TestRunner@647fd8ce]" name="tearDownClass" is-config="true" duration-ms="5746" started-at="2022-11-01T03:48:00Z" finished-at="2022-11-01T03:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
